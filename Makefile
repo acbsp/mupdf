@@ -486,7 +486,7 @@ android: generate
 	ndk-build -j8 \
 		APP_BUILD_SCRIPT=platform/java/Android.mk \
 		APP_PROJECT_PATH=build/android \
-		APP_PLATFORM=android-16 \
+		APP_PLATFORM=android-21 \
 		APP_OPTIM=$(build)
 
 c++: c++-$(build)
