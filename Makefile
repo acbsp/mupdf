@@ -172,7 +172,7 @@ FONT_BIN += $(sort $(wildcard resources/fonts/han/*.ttc))
 FONT_BIN += $(sort $(wildcard resources/fonts/droid/*.ttf))
 FONT_BIN += $(sort $(wildcard resources/fonts/noto/*.otf))
 FONT_BIN += $(sort $(wildcard resources/fonts/noto/*.ttf))
-FONT_BIN += $(sort $(wildcard resources/fonts/sil/*.cff))
+FONT_BIN += $(sort $(wildcard resources/fonts/sil/*.ttf))
 
 FONT_GEN := $(FONT_BIN:%=generated/%.c)
 
